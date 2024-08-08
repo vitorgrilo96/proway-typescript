@@ -13,7 +13,7 @@ function exemplo01(): void {
     let estaEmpregadoTexto = convertBooleanParaString(estaEmpregado);
 
     let titulo = document.querySelector("h1");
-    titulo.innerText = nomeUsuario
+    titulo.innerText = nomeUsuario;
 
     let paragrafo = document.querySelector("p");
     paragrafo.innerText = `
@@ -45,7 +45,7 @@ exemplo01();
 // }
 
 // function convertBooleanParaString(valor: boolean): string {
-//     if (valor) 
+//     if (valor)
 //         return "Sim";
 //     return "Não";
 // }
@@ -54,3 +54,4 @@ exemplo01();
 //     // return if ? código do if : código do else
 //     return valor ? "Sim"  : "Não";
 // }
+

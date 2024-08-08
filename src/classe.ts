@@ -1,11 +1,11 @@
-class filme{
+class Filme{
     nome: string;
     categoria: string;
     duracao: number;
-    atores: array<string>;
+    atores: Array<string>;
 }
 
-const starWars = new filme();
+const starWars = new Filme();
 starWars.nome = "star wars";
 starWars.categoria = "drama";
 starWars.duracao = 130;
